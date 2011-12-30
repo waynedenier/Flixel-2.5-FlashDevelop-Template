@@ -15,7 +15,7 @@ package
 			FlxG.bgColor = 0xff000000;
 			
 			Title = new FlxText(FlxG.width / 2, FlxG.height / 3, 100, "$(ProjectID)")
-			Title.alignment("center");
+			Title.setFormat(null, 64, 0xFFFFFF, "center", 0xffffff);
 			add(Title);
 			
 			devButton = new FlxButton(FlxG.width/2-40,FlxG.height / 3 + 60, "Insert Site", onSite);
